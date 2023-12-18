@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsive.css">
+  <title>Edzorb Law</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul class="nav-left left">
+      <li>
+        <a href="#"><img src="images/logo.png" title="Edzorb Law" alt="" class="logo" /></a>
+      </li>
+      <li>
+        <a href="#"><img src="images/secure.png" alt="" /></a>
+      </li>
+      <li><a href="#">Premium+</a></li>
+      <li><a href="#">Blogs</a></li>
+      <li>
+        <a href="#"><img src="images/asset-audio.png" alt="" /> Podcast</a>
+      </li>
+    </ul>
+    <ul class="nav-right right">
+      <li>
+        <a href="#"><img src="images/playstore.png" alt="" class="hovering" /></a>
+      </li>
+      <li>
+        <a href="#"><img src="images/apple.png" alt="" class="hovering" /></a>
+      </li>
+      <li>
+        <button class="btn login yellow-btn"><a href="#">Login</a></button>
+      </li>
+      <li>
+        <button class="btn signUp"><a href="#">Sign Up</a></button>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- ----------------- Home section------------- -->
+  <section class="home">
+    <div class="left home-left">
+      <p class="title">
+        Turn Your Judiciary <br/>
+        Dream Into Reality
+      </p>
+      <p class="text">Revolutionize Your Prelims + Mains + Interview <br> Preparation in an Integrated Manner.</p>
+      <span>#1 Most Downloaded Judicial Services App</span>
+      <div class="home-images">
+        <a href="https://apps.apple.com/us/app/edzorb-law-judiciary-law/id1519148879"><img
+            src="images/playstore-home.png" alt="" /></a>
+        <a href="https://apps.apple.com/us/app/edzorb-law-judiciary-law/id1519148879"><img src="images/apple-home.png"
+            alt="" /></a>
+      </div>
+      <div class="right home-right">
+        <img src="images/home-img.png" alt="" class="right-home-img">
+      </div>
+      <div class="socials socials1">
+        <button id="soc-button1"><a href="https://www.instagram.com/edzorblaw/"><i
+              class="fa-brands icons fa-instagram"></i>Instagram</a></button>
+      </div>
+      <div class="socials socials2">
+        <button id="soc-button2"><a href="https://www.youtube.com/@edzorblaw"><i
+              class="fa-brands icons fa-youtube"></i>Youtube</a></button>
+      </div>
+      <div class="socials socials3">
+        <button id="soc-button3"><a href="https://t.me/edzorblaw"><i
+              class="fa-brands icons fa-telegram"></i>Telegram</a></button>
+      </div>
+  </section>
+
+  <section>
+    <div class="outline-home">
+      Why <a href="https://play.google.com/store/apps/details?id=com.edzorblaw&pli=1">Edzorb Law App</a> is ❤ by Over
+      10,000+ Users. <img src="images/5stars.png" alt="" class="stars"> <a href=""> Read Reviews</a>
+    </div>
+  </section>
+
+  <section class="static-caraousel">
+      <div class="cards" onclick="openModal(1)">
+        <img src="images/card1.jpeg" alt="Image 1">
+    </div>
+    
+    <div class="cards" onclick="openModal(2)">
+        <img src="images/card2.jpeg" alt="Image 2">
+    </div>
+    
+    <div class="cards" onclick="openModal(3)">
+        <img src="images/card3.jpeg" alt="Image 3">
+    </div>
+    <div id="modal" class="modal" onclick="closeModal()">
+        <img id="modal-image" src="" alt="Modal Image">
+  </div>
+  </section>
+
+  <section class="law-diff">
+    <div class="heading">
+      <img src="images/fin-leaf-left.png" alt="" class="fin">
+      <p class="main-law-diff">The Edzorb Law Difference</p>
+      <img src="images/fin-leaf-right.png" alt="" class="fin">
+    </div>
+
+    <div class="part part1">
+      <div class="carousel-container">
+        <div class="carousel">
+          <img src="images/lanscape-scrollQuestion-Bank.jpg" alt="Image 1">
+          <img src="images/landscape-scroll-dekstop-equal pay.jpg" alt="Image 2">
+          <img src="images//landscape-scroll-kickout-2.jpg" alt="Image 3">
+        </div>
+        <ul class="indicators"></ul>
+      </div>
+      <div class="content">
+        <h5>Prelims QBank with Explanations in Visual Learning Format</h5>
+        <ul>
+          <li>High Yield Prelims Questions with Mains Explanations</li>
+          <li>Visual Learning Format, Stories, Animations</li>
+          <li>Precise, Qualitative & Effective with Proven <br>Track Record Across Multiple Prelims Exams of Different
+            States</li>
+          <li>Extensive Subject Wise Coverage of Questions</li>
+          <li>Goldmine for Your Success in Judiciary Exams</li>
+        </ul>
+        <button onclick="toggleContent1()" class="blu-btn"><i class="fa-solid fa-caret-down"></i><a href="#download">Download
+            Free</a></button>
+        <div id="download-pdf1" class="download-pdf">
+          <span><a href="https://edzorblaw.com/wp-content/uploads/2023/10/CrPC-QBank.pdf"><img src="images/pdf-icon.png"
+                alt="" width="60px">CrPC QBank</a></span>
+          <span><a href="https://edzorblaw.com/wp-content/uploads/2023/10/All-Subjects-QBank.pdf"><img
+                src="images/pdf-icon.png" alt="" width="60px">All QBank</a></span>
+          <span><a href=""><img src="images/pdf-icon.png" alt="" width="60px">CPC QBank</a></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="part part2">
+      <div class="carousel-container">
+        <div class="carousel">
+          <img src="images/lanscape-scrollQuestion-Bank.jpg" alt="Image 1">
+          <img src="images/landscape-scroll-dekstop-equal pay.jpg" alt="Image 2">
+          <img src="images//landscape-scroll-kickout-2.jpg" alt="Image 3">
+        </div>
+        <ul class="indicators"></ul>
+      </div>
+      <div class="content">
+        <h5>Prelims QBank with Explanations in Visual Learning Format</h5>
+        <ul>
+          <li>High Yield Prelims Questions with Mains Explanations</li>
+          <li>Visual Learning Format, Stories, Animations</li>
+          <li>Precise, Qualitative & Effective with Proven <br>Track Record Across Multiple Prelims Exams of Different
+            States</li>
+          <li>Extensive Subject Wise Coverage of Questions</li>
+          <li>Goldmine for Your Success in Judiciary Exams</li>
+        </ul>
+        <button class="blu-btn" onclick="toggleContent2()"><i class="fa-solid fa-caret-down"></i><a href="#download">Download
+            Free</a></button>
+        <div id="download-pdf2" class="download-pdf">
+          <span><a href="https://edzorblaw.com/wp-content/uploads/2023/10/CrPC-QBank.pdf"><img src="images/pdf-icon.png"
+                alt="" width="60px">CrPC QBank</a></span>
+          <span><a href="https://edzorblaw.com/wp-content/uploads/2023/10/All-Subjects-QBank.pdf"><img
+                src="images/pdf-icon.png" alt="" width="60px">All Subjects QBank</a></span>
+          <span><a href=""><img src="images/pdf-icon.png" alt="" width="60px">CPC QBank</a></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mentorship">
+    <div class="bg-col"></div>
+    <div class="mentors">
+      <img src="images/mentorship.jpg" alt="imgee" class="mentorship-img">
+      <div class="mentors-content">
+      <h5>Are You Ready To Begin Your Judiciary <br> Journey? Sign Up Now for Free <br> Mentorship Session</h5>
+      <div><button class="blu-btn"><a href="">Book Now for Free Mentorship</a></button></div>
+      <div class="sec"><img src="images/mentors-avatar.png" alt="avatar" class="mentors-avatar"> Joined by 10,000+ Students</div>
+    </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="heading">
+      <img src="images/fin-leaf-left.png" alt="" class="fin">
+      <p class="main-law-diff">Testimonials</p>
+      <img src="images/fin-leaf-right.png" alt="" class="fin">
+    </div>
+    <div class="testi-cards">
+    <div class="testi testi1">
+      <img src="images/testimonial1.png" alt="1" class="person-img">
+      <img src="images/5stars.png" alt="" class="stars">
+      <p>Excellent and one of best platform for clear concept learning. The efforts put into creating such a user-friendly place <a href="">Read More</a></p>
+      <h6>Shravya</h6>
+      <audio src="" controls type="audio"></audio>
+    </div>
+    <div class="testi testi2">
+      <img src="images/testimonial2.png" alt="2" class="person-img">
+      <img src="images/5stars.png" alt="" class="stars">
+      <p>Excellent and one of best platform for clear concept learning. The efforts put into creating such a user-friendly place <a href="">Read More</a></p>
+      <h6>Yashi</h6>
+      <audio src="" controls type="audio"></audio>
+    </div>
+    <div class="testi testi3">
+      <img src="images/testimonial3.png" alt="3" class="person-img">
+      <img src="images/5stars.png" alt="" class="stars">
+      <p>Excellent and one of best platform for clear concept learning. The efforts put into creating such a user-friendly place <a href="">Read More</a></p>
+      <h6>Tanuj</h6>
+      <audio src="" controls type="audio"></audio>
+    </div>
+  </div>
+  </section>
+
+  <section class="videos">
+    <div class="heading">
+      <img src="images/fin-leaf-left.png" alt="" class="fin">
+      <p class="main-law-diff">Latest Videos</p>
+      <img src="images/fin-leaf-right.png" alt="" class="fin">
+    </div>
+    <div class="video-cards">
+      <a href="https://www.youtube.com/shorts/9r1eKxSYQZs"><img src="images/yt1.jpg" alt=""></a>
+      <a href="https://www.youtube.com/shorts/pkq4FRwIgRA"><img src="images/yt2.jpg" alt=""></a>
+      <a href="https://www.youtube.com/shorts/7wiOsoVgzzY"><img src="images/yt3.jpg" alt=""></a>
+    </div>
+  </section>
+
+  <section class="getStarted">
+    <div class="heading">
+      <img src="images/fin-leaf-left.png" alt="" class="fin">
+      <p class="main-law-diff">Get Started Today</p>
+      <img src="images/fin-leaf-right.png" alt="" class="fin">
+    </div>
+    <div class="start-cards">
+      <div class="startCard">
+        <img src="images/crown1.png" alt="" class="crown">
+        <h4>Premium+</h4>
+        <span>8 Months</span>
+        <ul>
+          <li><img src="images/checkmark.png" alt="">Visual Learning</li>
+          <li><img src="images/checkmark.png" alt="">Simplified Notes</li>
+          <li><img src="images/checkmark.png" alt="">EPIC Test Series</li>
+          <li><img src="images/crossmark.png" alt="">90 Days Tapasya</li>
+        </ul>
+        <button class="blu-btn"><a href="https://app.edzorb.in/products/premium-30-8-months-newly-launched/">Buy Now</a></button>
+        <div class="wp-phone">
+          <img src="images/whatsapp.png" alt="">
+          <img src="images/phone.png" alt="">
+        </div>
+      </div>
+      <div class="startCard">
+        <img src="images/crown2.png" alt="" class="crown">
+        <h4>Premium+</h4>
+        <span>15 Months</span>
+        <ul>
+          <li><img src="images/checkmark.png" alt="">Visual Learning</li>
+          <li><img src="images/checkmark.png" alt="">Simplified Notes</li>
+          <li><img src="images/checkmark.png" alt="">EPIC Test Series</li>
+          <li><img src="images/crossmark.png" alt="">90 Days Tapasya</li>
+        </ul>
+        <button class="blu-btn"><a href="https://app.edzorb.in/products/premium-30-8-months-newly-launched/">Buy Now</a></button>
+        <div class="wp-phone">
+          <img src="images/whatsapp.png" alt="">
+          <img src="images/phone.png" alt="">
+        </div>
+      </div>
+      <div class="startCard">
+        <img src="images/crown3.png" alt="" class="crown">
+        <h4>Premium+</h4>
+        <span>8 Months</span>
+        <ul>
+          <li><img src="images/checkmark.png" alt="">Visual Learning</li>
+          <li><img src="images/checkmark.png" alt="">Simplified Notes</li>
+          <li><img src="images/checkmark.png" alt="">EPIC Test Series</li>
+          <li><img src="images/crossmark.png" alt="">90 Days Tapasya</li>
+        </ul>
+        <button class="blu-btn"><a href="https://app.edzorb.in/products/premium-30-8-months-newly-launched/">Buy Now</a></button>
+        <div class="wp-phone">
+          <img src="images/whatsapp.png" alt="">
+          <img src="images/phone.png" alt="">
+        </div>
+      </div>
+    </div>
+    <button class="blu-btn" style="display: block;margin: auto;"><a href="Browse All Courses">Browse All Courses</a></button>
+  </section>
+
+  <footer>
+    <section class="first-foot">
+      <div class="footer-text">
+      <h1>Why Edzorb Law</h1>
+      <p>
+        The difference between Edzorb & your other coaching institute which is “coaching” you, is Chalk & Cheese. Edzorb <br> Law is not a Coaching institute, at best we are your Self Study Companion. Edzorb Law is a massive Rank Generator <br> in the Post-Pandemic era of Judiciary Preparation. Ask around, your seniors, juniors, and selected candidates, about the difference Edzorb Law brings to your preparation.
+      </p>
+      <div class="foter-list1">
+        <ul>
+        <li>Edzorb has a Structure</li>
+        <li>Edzorb has a Schedule</li>
+        <li>Edzorb has a System</li>
+        <li>Edzorb has a SOPs</li>
+      </ul>
+    </div>
+      <p>In Edzorb's system you will thrive because where there is a structure, <br>& according to the structure, one knows if you study like this, you <br> make headway that will be recognised in the form of RESULTS.</p>
+    </div>
+      <div class="foot-icons">
+      <div class="icons-line">
+        <div class="foot-icon">
+          <img src="images/target.png" alt="">
+          <span>1,000+</span> 
+          <span>Ranks</span> 
+        </div>
+        <div class="foot-icon">
+          <img src="images/cap.png" alt="">
+          <span>10,000+</span>
+           <span>Students</span>
+        </div>
+      </div>
+      <div class="icons-line">
+        <div class="foot-icon">
+          <img src="images/users.png" alt="">
+          <span>100,000+</span>
+          <span>Monthly Users</span> 
+        </div>
+        <div class="foot-icon">
+          <img src="images/badge.png" alt="">
+          <span>7+</span> 
+            <span> Courses</span>
+        </div>
+      </div>
+      <div class="foot-form">
+      <form action="">
+        <h2>Get A Call Back</h2>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="tel" placeholder="Mobile No." required>
+        <textarea name="msg" id="" cols="10" rows="5" placeholder="Your Message (optional)"></textarea>
+        <button class="blu-btn"><a href="">Submit</a></button>
+      </form>
+    </div>
+    </div>
+    </section>
+    <section class="second-foot">
+      <div class="col">
+      <img src="images/logo.png" title="Edzorb Law" alt="" class="logo" /> <br>
+      <span>Don't Waste Time. JOIN NOW</span>
+      <div class="home-images">
+        <a href="https://apps.apple.com/us/app/edzorb-law-judiciary-law/id1519148879"><img
+            src="images/playstore-home.png" alt="" /></a>
+        <a href="https://apps.apple.com/us/app/edzorb-law-judiciary-law/id1519148879"><img src="images/apple-home.png"
+            alt="" /></a>
+      </div>
+      <div class="foot-socials">
+        <a href="https://t.me/edzorblaw"><img src="images/telegram.png" alt=""></a>
+        <a href="https://www.instagram.com/edzorblaw/"><img src="images/instagram.png" alt=""></a>
+        <a href="https://www.youtube.com/@edzorblaw"><img src="images/youtube.png" alt=""></a>
+      </div>
+    </div>
+    <div class="col">
+      <ul>
+        <span>Popular Courses</span>
+        <!-- <li>Popular Courses</li> -->
+        <li><hr style="width: 60px; border: 3px solid white;"></li>
+        <li><button class="btn yellow-btn"><a href="#">Premium+ Plan</a></button>
+        </li>
+        <li>Marks Enhancement <br> Programme</li>
+        <li>Elite Plan</li>
+        <li>FastTrack Crash Courses</li>
+        <li>For <a href="">Free</a> Notes join <a href="https://t.me/edzorblaw"><span class="blink-text">Telegram</span></a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <ul>
+        <span>Other Links</span>
+        <!-- <li>Other Links</li> -->
+        <li><hr style="width: 60px; border: 3px solid white;"></li>
+        <li>Free Resources</li>
+        <li>Syllabus</li>
+        <li>Contact Us</li>
+      </ul>
+    </div>
+    <div class="col">
+      <ul>
+        <span>Join Free Membership</span>
+        <!-- <li>Join Free Membership</li> -->
+        <li><hr style="width: 60px; border: 3px solid white;"></li>
+        <li>Sign Up Now</li>
+        <li><input type="email" placeholder="Your Email" class="list-input-email"><button class="btn yellow-btn"><a href="">Submit</a></button></li>
+        <li> <div class="sec"><img src="images/mentors-avatar.png" alt="avatar" class="mentors-avatar"> Joined by 10,000+ Students</div>
+        </div></li>
+      </ul>
+    </div>
+    </section>
+    <section class="third-foot">
+      <div class="col">
+        © 2023 Edzorb Law Private Limited
+      </div>
+      <div class="foot-links">
+        <div>
+          <a href="https://edzorblaw.com/faq/">F.A.Q</a>
+          <a href="https://edzorblaw.com/about-us/">About Us</a>
+          <a href="https://edzorblaw.com/career-2/">Career</a>
+          <a href="https://edzorblaw.com/blog-post/">Blog</a>
+        </div>
+        <div>
+          <a href="https://edzorblaw.com/privacy-policy-2/">Privacy Policy</a>
+          <a href="https://edzorblaw.com/el-terms-and-conditions/">Terms & Conditions</a>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
