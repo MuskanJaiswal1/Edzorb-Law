@@ -1,4 +1,3 @@
-# oibsip_task1-landing-page
 # edzorb_Law
 You can see the hosted site at :-
 ## https://edzorbb.netlify.app/
